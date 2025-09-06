@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "maciek-klocki"
+version = "0.1.0"
+description = "MaciekiKlocki YouTube notifications"
+authors = ["Marcin Sitnik <msitnik@outlook.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.5"
+feedparser = "^6.0.11"
+
+[tool.black]
+line-length = 88
